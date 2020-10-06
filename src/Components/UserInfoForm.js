@@ -61,25 +61,25 @@ function UserInfoForm() {
                 <form>
 
 
-                    <label for="firstname">First Name:</label>
+                    <label htmlFor="firstname">First Name:</label>
                     <br/>
                     <input type="text" id="firstname" name="firstname" onChange={() => setFirstName(document.getElementById("firstname").value)}/>
                     <br/>
 
 
-                    <label for="lastname">Last Name:</label>
+                    <label htmlFor="lastname">Last Name:</label>
                     <br/>
                     <input type="text" id="lastname" name="lastname" onChange={() => setLastName(document.getElementById("lastname").value)}/>
                     <br/>
 
 
-                    <label for="department">Department:</label>
+                    <label htmlFor="department">Department:</label>
                     <br/>
                     <input type="text" id="department" name="department" onChange={() => setDepartment(document.getElementById("department").value)}/>
                     <br/>
 
 
-                    <label for="amenitiesNeeded">Do you need anything?</label>
+                    <label htmlFor="amenitiesNeeded">Do you need anything?</label>
                     <br/>
                         <input
                             type="checkbox"
@@ -88,7 +88,7 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setMicrophone(document.getElementById("microphone").checked)}
                         />
-                        <label for="microphone">Microphone</label>
+                        <label htmlFor="microphone">Microphone</label>
                         <br/>
 
                         <input
@@ -98,7 +98,7 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setLaptops(document.getElementById("laptops").checked)}
                         />
-                        <label for="laptops">Laptops</label>
+                        <label htmlFor="laptops">Laptops</label>
                         <br/>
 
                         <input
@@ -108,7 +108,7 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setProjector(document.getElementById("projector").checked)}
                         />
-                        <label for="projector">Projector</label>
+                        <label htmlFor="projector">Projector</label>
                         <br/>
 
                         <input
@@ -118,7 +118,7 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setAirConditioning(document.getElementById("airConditioning").checked)}
                         />
-                        <label for="airConditioning">Air Conditioning</label>
+                        <label htmlFor="airConditioning">Air Conditioning</label>
                         <br/>
 
                         <input
@@ -128,7 +128,7 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setProjectorScreen(document.getElementById("projectorScreen").checked)}
                         />
-                        <label for="projectorScreen">Projector Screen</label>
+                        <label htmlFor="projectorScreen">Projector Screen</label>
                         <br/>
 
                         <input
@@ -138,11 +138,11 @@ function UserInfoForm() {
                             value="yes"
                             onChange={() => setSpeakers(document.getElementById("speakers").checked)}
                         />
-                        <label for="speakers">Speakers</label>
+                        <label htmlFor="speakers">Speakers</label>
                         <br/>
 
 
-                    <label for="likeTheRoom">Do you like your room?
+                    <label htmlFor="likeTheRoom">Do you like your room?
                     <br/>
                         <input
                             type="radio"
@@ -165,7 +165,7 @@ function UserInfoForm() {
                     <br/>
 
 
-                    <label for="classCrowded">Is your class too crowded?
+                    <label htmlFor="classCrowded">Is your class too crowded?
                     <br/>
                         <input
                             type="radio"
@@ -188,7 +188,7 @@ function UserInfoForm() {
                     <br/>
 
 
-                    <label for="seatingArrangment">Do you like your seating arrangements?
+                    <label htmlFor="seatingArrangment">Do you like your seating arrangements?
                     <br/>
                         <input
                             type="radio"
@@ -211,13 +211,13 @@ function UserInfoForm() {
                     <br/>
 
 
-                    <label for="dislikeSeating">If you don't like your arrangement, why not? And how can we fix it?</label>
+                    <label htmlFor="dislikeSeating">If you don't like your arrangement, why not? And how can we fix it?</label>
                     <br/>
                     <textarea id="dislikeSeating" name="dislikeSeating" rows="8" cols="50" onChange={() => setDislikeSeating(document.getElementById("dislikeSeating").value)}/>
                     <br/>
 
 
-                    <label for="parkingDistance">How far away do you park?
+                    <label htmlFor="parkingDistance">How far away do you park?
                     <br/>
                         <input
                             type="radio"
@@ -250,7 +250,7 @@ function UserInfoForm() {
                     <br/>
 
 
-                    <label for="otherRequests">Any other requests?</label>
+                    <label htmlFor="otherRequests">Any other requests?</label>
                     <br/>
                     <textarea id="otherRequests" name="otherRequests" rows="8" cols="50" onChange={() => setOtherRequests(document.getElementById("otherRequests").value)}/>
                     <br/>
